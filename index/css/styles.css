@@ -1,0 +1,82 @@
+.footer{
+  position:fixed;
+  left:0;
+  bottom:0;
+  width:100%;
+  color:grey;
+  text-align:center;
+}
+
+body {
+  font-size: 18px;
+  font-family:sans-serif;
+  text-decoration:none;
+  background-image: url("https://stmed.net/sites/default/files/interstellar-wallpapers-29645-6487886.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: black;
+  }
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: transparent;
+  text-decoration:none;
+  /*position: -webkit-sticky; /* Safari */*/
+  /*position: sticky;*/
+  top: 0;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 10px 16px;
+  text-decoration: none;
+  }
+li a:hover {
+  background-color: red;
+}
+.active {
+  background-color: black;
+}
+.button-div {
+  justify-content: center;
+  /*padding-top: 40%;*/
+  border: none;
+  top:50%;
+  left:50%;
+}
+.button {
+  top:50%;
+  left:45%;
+  text-align:center;
+  background-color: red;
+  border:none;
+  color: white;
+  text-decoration:none;
+  font-size: 30px;
+  position: absolute;
+
+}
+#physics_button{
+
+  top:50%;
+  left:45%;
+  text-align:center;
+  font-family: sans-serif;
+  background-color: red;
+  border:none;
+  color: white;
+  text-decoration:none;
+  font-size: 50px;
+  position: absolute;
+
+}
+#texta1{
+  text-align: center;
+}
