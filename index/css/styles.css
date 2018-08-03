@@ -64,19 +64,21 @@ li a:hover {
 
 }
 #physics_button{
-
+  margin:10px;
+  padding: 10px;
   top:50%;
-  left:45%;
+  left:38%;
   text-align:center;
   font-family: sans-serif;
   background-color: red;
   border:none;
   color: white;
   text-decoration:none;
-  font-size: 50px;
+  font-size: 70px;
   position: absolute;
 
 }
 #texta1{
-  text-align: center;
+  top:50%;
+  left:45%;
 }

@@ -1,21 +1,80 @@
 <!DOCTYPE html>
 <html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./contact-us.css">
+  <style>
+  body {font-family: Arial, Helvetica, sans-serif;}
+
+  input[type=text], select, textarea {
+      width: 100%;
+      padding: 12px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      box-sizing: border-box;
+      margin-top: 6px;
+      margin-bottom: 16px;
+      resize: vertical;
+  }
+
+  input[type=submit] {
+      background-color: red;
+      color: white;
+      padding: 12px 20px;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+  }
+
+  input[type=submit]:hover {
+      background-color:black;
+  }
+
+  .container {
+      border-radius: 5px;
+      background-color:;
+      padding: 20px;
+  }
+  </style>
+</head>
+<div class="nava">
+  <ul>
+    <li> <a href="../index/project.html">HOME</a>
+    <li> <a href="../Join-our-program/Page1.html">JOIN OUR PROGRAM</a>
+    <li> <a href="../contact-us/contact-us.html">CONTACT US</a>
+    <li> <a href="../About/about.html">ABOUT</a>
+  </ul>
+</div>
+
 <body>
+  <h3 style="color:white">Contact Form</h3>
 
-<h1>My First Google Map</h1>
+  <div class="container">
 
-<div id="map" style="width:400px;height:400px;"></div>
+    <form action="./SS.html">
+      <label for="fname" style="color:white">First Name</label>
 
-<script>
-function myMap() {
-    var mapOptions = {
-        center: new google.maps.LatLng(51.5, -0.12),
-        zoom: 10,
-        mapTypeId: google.maps.MapTypeId.HYBRID
-    }
-var map = new google.maps.Map(document.getElementById("map"), mapOptions);
-}
-</script>
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+      <label for="lname" style="color:white">Last Name</label>
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+      <label for="country" style="color:white">Country</label>
+      <select id="country" name="country">
+        <option value="australia">Australia</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+
+      <label for="subject" style="color:white">Subject</label>
+      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+      <input type="submit" value="Submit">
+    </form>
+    </div>
+    <div class="footer">
+      <p>Copyright of Leo</p>
+    </div>
 
 </body>
 </html>
